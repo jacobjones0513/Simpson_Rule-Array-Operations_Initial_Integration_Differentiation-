@@ -6,7 +6,7 @@ Write a program to that integrates sin(x)e^(-x)dx from 0 to pi
 using the both the Trapezoidal and Simpson
 Rules. Make the program write out a delimited file where the first column is the number of bins, the
 second the Trapezoidal rule value, and the third the Simpson’s rule value. Write out the data file for
-the number of bins ranging from 1 to 20. (10 points)
+the number of bins ranging from 1 to 20.
 
 Array Operation with CO2 Data
 Using the ”co2 mm mlo.txt” data, write a script that uses the Numpy where() function and the min()
@@ -21,6 +21,4 @@ Initial Differentiation
 Using the CO2 data, use the central difference method to calculate the derivative of the ”seasonally
 adjusted trend” data. You can skip the derivative of the first and last points for now (but note you
 would use forward and backwards formulas for those two points). Have the script make and save a
-plot of the derivative. (10 points)
-Extra Credit: By exploring Pyplot options, have your plot include two separate plots, with the
-trend data plotted above and the derivative plotted below. (3 points)
+plot of the derivative. 
